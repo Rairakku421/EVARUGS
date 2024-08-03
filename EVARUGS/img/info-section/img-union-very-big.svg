@@ -1,0 +1,28 @@
+<svg width="757.000000" height="581.000000" viewBox="0 0 757 581" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<linearGradient id="paint_linear_49_2_0" x1="640.453491" y1="204.910660" x2="640.453491" y2="469.022827" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#D4145A"/>
+			<stop offset="1.000000" stop-color="#2E3192"/>
+		</linearGradient>
+		<linearGradient id="paint_linear_49_4_0" x1="509.014954" y1="580.999634" x2="509.014954" y2="455.981750" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#D4145A"/>
+			<stop offset="1.000000" stop-color="#2E3192"/>
+		</linearGradient>
+		<linearGradient id="paint_linear_49_1_0" x1="240.490234" y1="0.006279" x2="240.490234" y2="543.020020" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#D4145A"/>
+			<stop offset="1.000000" stop-color="#2E3192"/>
+		</linearGradient>
+	</defs>
+	<g opacity="0.094610">
+		<path d="M757 393.24L757 280.75C757 273.76 753.29 267.32 747.27 263.85L650.22 207.6C644.2 204.13 636.79 204.13 630.77 207.6L533.72 263.85C527.7 267.32 524 273.81 524 280.75L524 393.24C524 400.23 527.7 406.68 533.72 410.14L630.77 466.39C636.79 469.86 644.2 469.86 650.22 466.39L747.27 410.14C753.24 406.68 757 400.18 757 393.24Z" fill="url(#paint_linear_49_2_0)" fill-opacity="1.000000" fill-rule="nonzero"/>
+	</g>
+	<g opacity="0.094610">
+		<path d="M454 491.87L454 545.12C454 548.44 455.77 551.46 458.57 553.14L504.4 579.77C507.25 581.4 510.74 581.4 513.59 579.77L559.42 553.14C562.27 551.51 564 548.44 564 545.12L564 491.87C564 488.55 562.23 485.53 559.42 483.85L513.59 457.22C510.74 455.59 507.25 455.59 504.4 457.22L458.57 483.85C455.77 485.48 454 488.55 454 491.87Z" fill="url(#paint_linear_49_4_0)" fill-opacity="1.000000" fill-rule="nonzero"/>
+	</g>
+	<g opacity="0.094610">
+		<path d="M481 387.17L481 155.82C481 141.48 473.34 128.19 460.93 121.02L260.58 5.37C248.13 -1.8 232.81 -1.8 220.41 5.37L20.06 121.02C7.66 128.24 0 141.48 0 155.82L0 387.17C0 401.51 7.66 414.8 20.06 421.97L220.41 537.62C232.81 544.79 248.13 544.79 260.58 537.62L460.93 421.97C473.34 414.8 481 401.51 481 387.17Z" fill="url(#paint_linear_49_1_0)" fill-opacity="1.000000" fill-rule="nonzero"/>
+	</g>
+</svg>

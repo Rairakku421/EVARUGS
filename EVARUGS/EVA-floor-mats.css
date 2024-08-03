@@ -1,0 +1,416 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+.EVA-floor-mats{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 25px;
+    position: relative;
+    margin-bottom: 225px;
+}
+
+
+.union-img-three{
+    position: absolute;
+    z-index: -1;
+    top: 180px;
+    left: -170px;
+}
+
+
+.eva-wtf{
+    background: linear-gradient(180deg, rgba(185, 1, 96, 1.00), rgba(61, 91, 245, 1.00));
+    background-clip: text;    /*градиент по форме букв*/
+    color: transparent;  /*прозрачный текст*/
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+
+.eva-what-is-this{
+    display: flex;
+    margin: auto;
+    font-size: 50px;
+    font-family: Roboto;
+    font-weight: bold;
+    margin-bottom: 120px;
+}
+
+
+.all-info-card{
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap;
+    max-width: 1200px;
+    margin: auto;
+    gap: 61px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+.info-card{
+    background-color: white;
+    width: 344px;
+    border-radius: 9px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+
+.info-card-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    height: 240px;
+    width: 344px;
+}
+
+
+
+.info-card-title{
+    font-size: 36px;
+    font-family: Roboto;
+    font-weight: bold;
+    margin: 22px;
+    /* padding-top: 23px;
+    padding-left: 31px; */
+}
+
+
+.info-card-text{
+    font-size: 14px;
+    font-family: Roboto;
+    font-weight: lighter;
+    padding-left: 22px;
+    padding-right: 33px;
+    padding-bottom: 23px;
+}
+
+
+
+@media(max-width:768px) {
+    .EVA-floor-mats{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: auto;
+        margin-top: 25px;
+        position: relative;
+        margin-bottom: 225px;
+    }
+    
+    
+    .union-img-three{
+        position: absolute;
+        z-index: -1;
+        top: 180px;
+        left: -170px;
+    }
+    
+    
+    .eva-wtf{
+        background: linear-gradient(180deg, rgba(185, 1, 96, 1.00), rgba(61, 91, 245, 1.00));
+        background-clip: text;    /*градиент по форме букв*/
+        color: transparent;  /*прозрачный текст*/
+
+    }
+    
+    
+    .eva-what-is-this{
+        display: flex;
+        margin: auto;
+        font-size: 40px;
+        font-family: Roboto;
+        font-weight: bold;
+        margin-bottom: 120px;
+    }
+    
+    
+    .all-info-card{
+        display: block;
+        margin: auto;
+
+    }
+    
+    
+    .info-card{
+        margin-bottom: 61px;
+        width: 594px;
+    }
+    
+    
+    .info-card-img{
+        width: 594px;
+    }
+    
+    
+    
+    
+    .info-card-title{
+        font-size: 36px;
+        font-family: Roboto;
+        font-weight: bold;
+        margin: 22px;
+        /* padding-top: 23px;
+        padding-left: 31px; */
+    }
+    
+    
+    .info-card-text{
+        font-size: 14px;
+        font-family: Roboto;
+        font-weight: lighter;
+        padding-left: 22px;
+        padding-right: 33px;
+        padding-bottom: 23px;
+    }
+}
+
+
+@media (max-width:655px) {
+    .info-card{
+        margin-bottom: 61px;
+        width: 470px;
+    }
+    
+    
+    .info-card-img{
+        width: 470px;
+    }
+}
+
+
+@media (max-width:520px) {
+    .EVA-floor-mats{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        max-width: 520px;
+        margin: auto;
+        margin-top: 25px;
+        position: relative;
+        margin-bottom: 103px;
+    }
+    
+    
+    .union-img-three{
+        position: absolute;
+        z-index: -1;
+        top: 180px;
+        left: -170px;
+    }
+    
+    
+    .eva-wtf{
+        background: linear-gradient(180deg, rgba(185, 1, 96, 1.00), rgba(61, 91, 245, 1.00));
+        background-clip: text;    /*градиент по форме букв*/
+        color: transparent;  /*прозрачный текст*/
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    
+    
+    .eva-what-is-this{
+        display: flex;
+        margin: auto;
+        font-size: 35px;
+        font-family: Roboto;
+        font-weight: bold;
+        margin-bottom: 58px;
+        margin-top: 53px;
+    }
+    
+    
+    .all-info-card{
+        display: block;
+        margin: auto;
+    }
+    
+    
+    .info-card{
+        margin-bottom: 30px;
+        width: 365px;
+
+    }
+    
+    
+    .info-card-img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-top-left-radius: 9px;
+        border-top-right-radius: 9px;
+        height: 251px;
+        width: 365px;
+    }
+    
+    
+    
+    .info-card-title{
+        font-size: 30px;
+        font-family: Roboto;
+        font-weight: bold;
+        margin-right: 20px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        /* padding-top: 23px;
+        padding-left: 31px; */
+    }
+    
+    
+    .info-card-text{
+        font-size: 20px;
+        font-family: Roboto;
+        font-weight: lighter;
+        padding-left: 22px;
+        padding-right: 33px;
+        padding-bottom: 23px;
+    }
+
+    .innovative--decorate{
+        display: none;
+    }
+}
+
+@media (max-width:460px) {
+    .eva-what-is-this{
+        display: flex;
+        margin: auto;
+        font-size: 30px;
+        font-family: Roboto;
+        font-weight: bold;
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+    }
+
+
+    @media(max-width:425px) {
+        .info-card{
+            margin-bottom: 30px;
+            width: 340px;
+    
+        }
+
+        .info-card-img{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-top-left-radius: 9px;
+            border-top-right-radius: 9px;
+            height: 240px;
+            width: 340px;
+        }
+        
+    }
+
+    
+@media (max-width:395px) {
+    .eva-what-is-this{
+        display: flex;
+        margin: auto;
+        font-size: 27px;
+        font-family: Roboto;
+        font-weight: bold;
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+    }
+
+
+@media (max-width:380px) {
+    .EVA-floor-mats{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        max-width: 321px;
+        margin: auto;
+        margin-top: 25px;
+        position: relative;
+        margin-bottom: 103px;
+    }
+    
+    
+    .union-img-three{
+        position: absolute;
+        z-index: -1;
+        top: 180px;
+        left: -170px;
+    }
+    
+    
+    .eva-wtf{
+        background: linear-gradient(180deg, rgba(185, 1, 96, 1.00), rgba(61, 91, 245, 1.00));
+        background-clip: text;    /*градиент по форме букв*/
+        color: transparent;  /*прозрачный текст*/
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    
+    
+    .eva-what-is-this{
+        display: flex;
+        margin: auto;
+        font-size: 20px;
+        font-family: Roboto;
+        font-weight: bold;
+        margin-bottom: 58px;
+        margin-top: 53px;
+    }
+    
+    
+    .all-info-card{
+        display: block;
+        margin: auto;
+    }
+    
+    
+    .info-card{
+        margin-bottom: 30px;
+        width: 265px;
+
+    }
+    
+    
+    .info-card-img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-top-left-radius: 9px;
+        border-top-right-radius: 9px;
+        height: 151px;
+        width: 265px;
+    }
+    
+    
+    
+    .info-card-title{
+        font-size: 30px;
+        font-family: Roboto;
+        font-weight: bold;
+        margin-right: 20px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        /* padding-top: 23px;
+        padding-left: 31px; */
+    }
+    
+    
+    .info-card-text{
+        font-size: 14px;
+        font-family: Roboto;
+        font-weight: lighter;
+        padding-left: 22px;
+        padding-right: 33px;
+        padding-bottom: 23px;
+    }
+
+    .innovative--decorate{
+        display: none;
+    }
+}

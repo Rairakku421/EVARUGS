@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    overflow-x: hidden;
+}
+
+.header {
+    background: linear-gradient(224.42deg, rgba(46, 49, 146, 0.7) 0%,rgba(212, 20, 90, 0.7) 98.165%);
+
+}
+
+
+.conteiner-header{
+   
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 43px;
+    padding-right: 43px;
+}
+
+
+
+
+.number-phone{
+    display: flex;
+    padding-top: 31px;
+    padding-bottom: 26px;
+    font-family: Roboto;
+    color: white;
+    gap: 12px;
+    font-size: 15px;
+}
+
+
+
+
+.our-city{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Roboto;
+    color: white;
+    gap: 5px;
+    font-size: 15px;
+}
+
+
+
+.our-social-networks{
+    display: flex;
+    align-items: center;
+    font-family: Roboto;
+    color: white;
+    gap: 15px;
+    font-size: 15px;
+}
+
+
+.phone{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.our-phone {
+    margin-left: 12px;
+    margin-right: 21px;
+}
+
+
+
+
+
+
+
+@media(max-width:768px) {
+    .conteiner-header{
+    margin: 0 auto;
+    display: flex;
+    justify-content: end;
+    }
+
+
+    .number-phone{
+        display: none;
+    }
+
+
+    .our-city{
+        font-size: 12px;
+        padding-top: 30px;
+        padding-bottom: 24px;
+    }
+
+    .networks--text{
+        width: 99px;
+    }
+
+
+    .our-social-networks{
+        display: flex;
+        align-items: center;
+        font-family: Roboto;
+        color: white;
+        gap: 15px;
+        font-size: 12px;
+        padding-left: 43px;
+     
+        }
+
+
+        .our-phone{
+            display: none;
+        }
+}
+
+
+@media(max-width:520px) {
+    .conteiner-header{
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    
+    
+    
+    
+    .number-phone{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding-top: 22px;
+        padding-bottom: 8px;
+        font-size: 14px;
+    }
+
+    
+    .img-phone-header{
+        display: none;
+    }
+    
+    
+    
+    .our-city{
+        margin: 0 auto;
+        font-size: 17px;
+        padding-top: 8px;
+        padding-bottom:18px;
+    }
+    
+    
+    .img-pin-header{
+        display: none;
+    }
+    
+    
+    
+    .our-social-networks{
+        display: none;
+    }
+    
+    
+    .our-phone{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .our-phone{
+        margin-left: 75px;
+        margin-right: 75px;
+    }
+    
+    
+}

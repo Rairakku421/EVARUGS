@@ -1,0 +1,558 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.floor-mats{
+   max-width: 1200px;
+   margin: 0 auto;
+}
+.floor-mats-for-cars{
+    margin:0 auto;
+    padding-top: 47px;
+    margin: 0 66px;
+}
+
+.info-floor-mats-up{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+.name-company{
+    display: flex;
+}
+
+
+.logo-evarugs{
+    width: 100px;
+    
+}
+
+
+.text-info-logo{
+    padding: 11px;
+    font-family: Roboto;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 36px;
+}
+
+
+.contacts{
+    display: flex;
+    align-items: center;
+    
+}
+
+
+.contacts-inner{
+    display: flex;
+    gap: 25px;
+    font-family: Roboto;
+    font-weight: lighter;
+    margin-right: 47px;
+}
+
+
+.info-floor-mats-down{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+.innovative-floor-mats-left{
+    position: relative;
+}
+
+.union-img-one{
+    position: absolute;
+    z-index: -1;
+    top: 145px;
+    left: -15px;
+}
+
+
+.innovative-floor-mats-right{
+    position: relative;
+}
+
+.union-img-two{
+    position: absolute;
+    z-index: -1;
+    top: -5px;
+    left: -245px;
+
+}
+
+.innovative-floor-mats-info{
+    padding-top: calc(25% - 30px);
+}
+
+
+.bold-text-info{
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 50px;
+    margin: 0 66px;
+}
+
+
+.text-info{
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: lighter;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0 66px;
+}
+
+
+.innovative--decorate{
+    width: 100%;
+}
+
+/*  */
+
+.btd-floor-mats{
+    background-color: aqua;
+    border-radius: 7px;
+    background: linear-gradient(135.87deg, rgb(185, 1, 96) 2.23%,rgb(46, 49, 146) 99.506%);
+    padding: 16px 35px 16px;
+    font-size: 20px;
+    color: white;
+    font-family: Roboto;
+    font-weight: bold;
+    margin: 0 66px;
+    margin-bottom: 250px;
+}
+
+
+.btd-push:visited{
+    color: white;
+}
+
+.btd-push:hover{
+    color: white;
+}
+
+
+@media(max-width:768px) {
+    .innovative-floor-mats-right{
+        position: relative;
+    }
+    
+    .union-img-two{
+        position: absolute;
+        z-index: -1;
+        top: -5px;
+        left: -315px;
+    
+    }
+}
+
+@media(max-width:768px) {
+
+    .floor-mats{
+        max-width: 768px;
+
+    }
+
+
+    .floor-mats-for-cars{
+        margin: 0 66px;
+    }
+
+    .floor-mats-for-cars{
+        margin-top: 47px;
+    }
+    
+    .info-floor-mats-up{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    
+    .name-company{
+        display: flex;
+    }
+    
+    
+    .logo-evarugs{
+        width: 100px;
+    }
+    
+    
+    .text-info-logo{
+        padding: 11px;
+        font-family: Roboto;
+        font-weight: bold;
+        font-style: italic;
+        font-size: 36px;
+    }
+    
+    
+    .contacts{
+        display: flex;
+        align-items: center;
+        margin-left: 650px;
+    }
+    
+    
+    .contacts-inner{
+      display: none;
+    }
+    
+    .info-floor-mats-down{
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+    }
+    
+    
+    .innovative-floor-mats-left{
+        position: relative;
+    }
+    
+    .union-img-one{
+        position: absolute;
+        z-index: -1;
+        top: -25px;
+        left: -275px;
+    }
+    
+    
+    .innovative-floor-mats-right{
+        position: relative;
+    }
+    
+    .union-img-two{
+        position: absolute;
+        z-index: -1;
+        top: -75px;
+        left: -270px;
+    
+    }
+    
+    .innovative--decorate{
+        width: 100%;
+    }
+    
+    .bold-text-info{
+        font-size: 40px;
+        margin: 0 66px;
+    }
+    
+    
+    .text-info{
+        padding: 19px;
+        padding: 23px;
+        margin: 0 40px;
+    }
+    
+    
+    .btd-floor-mats{
+        font-size: 15px;
+        margin: 0 66px;
+        margin-bottom: 206px;
+    }
+    
+    
+    .btd-push:visited{
+        color: white;
+    }
+    
+    .btd-push:hover{
+        color: white;
+    }
+    
+}
+
+
+@media(max-width:765px) {
+    .innovative--decorate{
+        width: 100%;
+    }
+
+    .innovative-floor-mats-right{
+        position: relative;
+    }
+    
+    .union-img-two{
+        position: absolute;
+        z-index: -1;
+        top: -75px;
+        left: -270px;
+    
+    }
+}
+
+
+@media(max-width:750px) {
+    .innovative--decorate{
+        display: none;
+    }
+    .innovative-floor-mats-right{
+        position: relative;
+    }
+    
+    .union-img-two{
+        width: 565px;
+        position: absolute;
+        z-index: -1;
+        top: 40px;
+        left: -535px;
+    
+    }
+}
+
+
+@media(max-width:520px) {
+
+    .floor-mats{
+        max-width: 520px;
+    
+    }
+    .floor-mats-for-cars{
+        max-width: 520px;
+        margin:0 auto;
+        padding-top: 47px;
+        margin: 0 66px;
+    }
+    
+    .info-floor-mats-up{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    
+    .name-company{
+        display: flex;
+    }
+    
+    
+    .logo-evarugs{
+        width: 60px;
+        
+    }
+    
+    
+    .text-info-logo{
+        padding: 11px;
+        font-family: Roboto;
+        font-weight: bold;
+        font-style: italic;
+        font-size: 26px;
+    }
+    
+    
+    .contacts{
+        display: none;
+        
+    }
+    
+    
+    .contacts-inner{
+        display: none;
+    }
+    
+    
+    .info-floor-mats-down{
+        display: flex;
+        justify-content: space-between;
+        max-width: 520px;
+        margin: auto;
+    }
+
+    
+    .union-img-one{
+        display: none;
+    
+    }
+
+    .innovative-floor-mats-right{
+        position: relative;
+    }
+    
+    .union-img-two{
+        width: 365px;
+        position: absolute;
+        z-index: -1;
+        top: -70px;
+        left: -340px;
+    
+    }
+    
+   
+    
+    
+    .bold-text-info{
+        font-family: Roboto;
+        font-weight: bold;
+        font-size: 30px;
+        text-align: center;
+    }
+    
+    
+    .text-info{
+        font-family: Roboto;
+        font-size: 25px;
+        font-weight: lighter;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        text-align: center;
+        
+    }
+    
+    
+    .innovative--decorate{
+        width: 100%;
+    }
+    
+    .btd-floor-mats{
+        border-radius: 7px;
+        background: linear-gradient(135.87deg, rgb(185, 1, 96) 2.23%,rgb(46, 49, 146) 99.506%);
+        padding: 11px 21px 11px;
+        font-size: 15px;
+        color: white;
+        font-family: Roboto;
+        font-weight: bold;
+        display: flex;
+        margin: 0 auto;
+    }
+    
+    
+    .btd-push:visited{
+        color: white;
+    }
+    
+    .btd-push:hover{
+        color: white;
+    }
+}
+
+
+@media(max-width:380px) {
+
+    .floor-mats{
+        max-width: 321px;
+    
+    }
+    .floor-mats-for-cars{
+        max-width: 321px;
+        margin:0 auto;
+        padding-top: 47px;
+        margin: 0 66px;
+    }
+    
+    .info-floor-mats-up{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    
+    .name-company{
+        display: flex;
+    }
+    
+    
+    .logo-evarugs{
+        width: 60px;
+        
+    }
+    
+    
+    .text-info-logo{
+        padding: 11px;
+        font-family: Roboto;
+        font-weight: bold;
+        font-style: italic;
+        font-size: 18px;
+    }
+    
+    
+    .contacts{
+        display: none;
+        
+    }
+    
+    
+    .contacts-inner{
+        display: none;
+    }
+    
+    
+    .info-floor-mats-down{
+        display: flex;
+        justify-content: space-between;
+        max-width: 321px;
+        margin: auto;
+    }
+
+    
+    .union-img-one{
+        display: none;
+    
+    }
+
+    .innovative-floor-mats-right{
+        position: relative;
+    }
+    
+    .union-img-two{
+        width: 365px;
+        position: absolute;
+        z-index: -1;
+        top: -70px;
+        left: -340px;
+    
+    }
+    
+    
+    
+    
+    .bold-text-info{
+        font-family: Roboto;
+        font-weight: bold;
+        font-size: 25px;
+        text-align: center;
+    }
+    
+    
+    .text-info{
+        font-family: Roboto;
+        font-size: 20px;
+        font-weight: lighter;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        text-align: center;
+        
+    }
+    
+    
+    .innovative--decorate{
+        display: none;
+    }
+    
+    .btd-floor-mats{
+        border-radius: 7px;
+        background: linear-gradient(135.87deg, rgb(185, 1, 96) 2.23%,rgb(46, 49, 146) 99.506%);
+        padding: 11px 21px 11px;
+        font-size: 10px;
+        color: white;
+        font-family: Roboto;
+        font-weight: bold;
+        display: flex;
+        margin: 0 auto;
+    }
+    
+    
+    .btd-push:visited{
+        color: white;
+    }
+    
+    .btd-push:hover{
+        color: white;
+    }
+}
